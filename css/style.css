@@ -3967,3 +3967,12 @@ footer {
   padding-left: 5px;
   opacity: .6;
 }
+.catalog__sidebar-radio > label::before{
+  display: none;
+}
+.catalog__sidebar-radio label:hover{
+  font-weight: bold;
+}
+.catalog__sidebar-categor .catalog__sidebar-title{
+  padding-bottom: 20px;
+}
