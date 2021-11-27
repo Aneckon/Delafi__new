@@ -3976,3 +3976,6 @@ footer {
 .catalog__sidebar-categor .catalog__sidebar-title{
   padding-bottom: 20px;
 }
+.catalog__sidebar-active label{
+  font-weight: bold;
+}
