@@ -2108,9 +2108,6 @@ footer {
   height: auto;
   padding: 25px 20px;
 }
-.catalog__sidebar-title {
-  padding-bottom: 30px;
-}
 .catalog__sidebar-title p {
   font-size: 14px;
   font-weight: bold;
@@ -3958,6 +3955,21 @@ footer {
   bottom: 0;
   top: 0;
 }
+.box__item-last{
+  position: relative;
+}
+.box__item-last::after{
+  content: '';
+  position: absolute;
+  border: 2px solid #fff;
+  width: 98%;
+  height: 95%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+  top: 0;
+}
 .box__nabor-div{
   display: flex;
   align-items: flex-end;
@@ -3973,9 +3985,29 @@ footer {
 .catalog__sidebar-radio label:hover{
   font-weight: bold;
 }
-.catalog__sidebar-categor .catalog__sidebar-title{
-  padding-bottom: 20px;
-}
 .catalog__sidebar-active label{
   font-weight: bold;
+}
+.catalog__sidebar-dropdown{
+  padding-top: 20px;
+  display: none;
+}
+.catalog__sidebar-scroll{
+  padding-top: 20px;
+}
+.catalog__sidebar-title{
+  cursor: pointer;
+}
+.catalog__sidebar-block{
+  display: block;
+}
+.delafi__bg-last{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.delafi__bg-first{
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
