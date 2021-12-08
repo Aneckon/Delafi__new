@@ -53,6 +53,10 @@ $(document).ready(function () {
 
   $('.col__first').click(function () {
     $('.col__first').addClass('col-lg-8');
+    $('.delafi__bg-last__none').addClass('d-block');
+    $('.delafi__bg-last__none').removeClass('d-none');
+    $('.delafi__bg-first__none').removeClass('d-block');
+    $('.delafi__bg-first__none').addClass('d-none');
     $('.col__last').addClass('col-lg-4');
     $('.col__last').removeClass('col-lg-6');
     $('.col__last').removeClass('col-lg-8');
@@ -66,6 +70,10 @@ $(document).ready(function () {
   });
   $('.col__last').click(function () {
     $('.box__last').addClass('box__item-last');
+    $('.delafi__bg-first__none').addClass('d-block');
+    $('.delafi__bg-first__none').removeClass('d-none');
+    $('.delafi__bg-last__none').removeClass('d-block');
+    $('.delafi__bg-last__none').addClass('d-none');
     $('.delafi__bg-last').addClass('d-block');
     $('.delafi__bg-first').removeClass('d-none');
     $('.delafi__bg-last').removeClass('d-none');
@@ -104,7 +112,7 @@ $(document).ready(function () {
 });
 $(document).ready(function () {
   $('.catalog__mob-title').click(function () {
-    $(this).next('.catalog__dropdown').toggle();
+    $(this).next('.catalog__dropdown').toggleClass('one-block');
   });
 });
 $(document).ready(function () {

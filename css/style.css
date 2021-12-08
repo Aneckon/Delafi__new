@@ -3938,7 +3938,10 @@ footer {
   cursor: pointer;
 }
 .box__item img{
-  height: 433px;
+  max-width: 100%;
+  width: 100%;
+  top: 0;
+  height: 443px;
 }
 .box__item-first{
   position: relative;
@@ -3996,18 +3999,57 @@ footer {
   padding-top: 20px;
 }
 .catalog__sidebar-title{
+  width: 100%;
   cursor: pointer;
 }
 .catalog__sidebar-block{
   display: block;
 }
 .delafi__bg-last{
+  max-width: 700px !important;
+  width: 100% !important;
+  max-width: 433px;
+  height: 100%;
   position: absolute;
   right: 0;
   bottom: 0;
 }
 .delafi__bg-first{
+  max-width: 700px !important;
+  width: 100% !important;
+  max-width: 433px;
+  height: 100%;
   position: absolute;
   right: 0;
   bottom: 0;
+}
+.catalog__dropdown-border .catalog__sidebar-categor{
+  border-bottom: none;
+}
+.box__catalog .catalog__btn{
+  max-width: 250px;
+}
+.delafi__bg-first__none{
+  display: none;
+}
+.delafi__bg-first__block{
+  display: block;
+}
+.delafi__bg-last__none{
+  display: none;
+}
+.delafi__bg-last__block{
+  display: block;
+}
+.box__first .delafi__bg-decor{
+  right: 0;
+  max-width: 100px !important;
+  height: 80px !important;
+}
+.delafi__bg-decor{
+  position: absolute;
+  max-width: 260px !important;
+  width: 100%;
+  height: 200px !important;
+  right: 50px;
 }

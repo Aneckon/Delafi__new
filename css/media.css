@@ -44,6 +44,9 @@
   }
 }
 @media (max-width: 1400px) {
+  .box__catalog .catalog__btn{
+    max-width: 190px;
+  }
   .aboute__bg-dropdown{
     top: 91.5%;
   }
@@ -538,6 +541,7 @@
   }
   .catalog__sidebar-mob__title{
     display: block;
+    padding-bottom: 20px;
   }
   .swiper4 .swiper-slide {
     width: 48% !important;
@@ -1013,6 +1017,9 @@
   }
 }
 @media (max-width: 768px) {
+  .one-block{
+    display: block;
+  }
   .aboute__bg-inner::before{
     bottom: -35px;
   }
@@ -1352,6 +1359,10 @@
   }
 }
 @media (max-width: 575px) {
+  .box__item img{
+    max-height: 443px;
+    height: auto;
+  }
   .box__nabor-subheader{
     max-width: 100%;
   }
