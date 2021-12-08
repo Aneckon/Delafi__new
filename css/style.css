@@ -4053,3 +4053,10 @@ footer {
   height: 200px !important;
   right: 50px;
 }
+.catalog__dropdown-border .catalog__sidebar-categor{
+  margin-bottom: 0;
+}
+.catalog__dropdown-border .catalog__sidebar-categor:last-child{
+  border-bottom: 2px solid #fff;
+  margin-bottom: 30px;
+}
