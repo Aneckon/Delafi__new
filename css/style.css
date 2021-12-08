@@ -4060,3 +4060,6 @@ footer {
   border-bottom: 2px solid #fff;
   margin-bottom: 30px;
 }
+.catalog__sidebar-categor label{
+  cursor: pointer;
+}
