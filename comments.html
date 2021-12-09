@@ -197,7 +197,7 @@
               <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Регистрация</button>
             </div>
           </div>
-          <div class="header__money-inner">
+          <!--           <div class="header__money-inner">
             <svg id="Layer_1" enable-background="new 0 0 512 512" height="512" viewBox="0 0 512 512" width="512"
               xmlns="http://www.w3.org/2000/svg">
               <g>
@@ -210,7 +210,7 @@
               <p>*Минимальная сумма<br>
                 заказа - 30 USD </p>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="header__rus">
           <a class="header__btn" href="#">РУС</a>
@@ -1363,112 +1363,113 @@
   </main>
 
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Войти</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Войти</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <input type="text" placeholder="Ваш e-mail">
+            <input type="text" placeholder="Ваш пароль">
+            <div class="modal__lable-checkbox">
+              <input class="modal__lable" type="checkbox" id="color" name="color" value="indigo">
+              <label for="color">Запомнить меня</label>
+              <input type="button" value="Забыли пароль?" class="modal__lable-btn" />
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" data-bs-dismiss="modal">Войти</button>
+          <button type="button" class="modal__btn-yellow">зарегестрироваться</button>
+        </div>
       </div>
-      <div class="modal-body">
-        <form action="#">
-          <input type="text" placeholder="Ваш e-mail">
-          <input type="text" placeholder="Ваш пароль">
-          <div class="modal__lable-checkbox">
-            <input class="modal__lable" type="checkbox" id="color" name="color" value="indigo">
-            <label for="color">Запомнить меня</label>
-            <input type="button" value="Забыли пароль?" class="modal__lable-btn" />
+    </div>
+  </div>
+  <div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">РЕГИСТРАЦИЯ НОВОГО КЛИЕНТА</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-title">
+            <p>Оставьте свой номер телефона</p>
           </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" data-bs-dismiss="modal">Войти</button>
-        <button type="button" class="modal__btn-yellow">зарегестрироваться</button>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">РЕГИСТРАЦИЯ НОВОГО КЛИЕНТА</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="modal-title">
-          <p>Оставьте свой номер телефона</p>
-        </div>
-        <div class="modal-subheader">
-          <p>И мы свяжимся с вами в кратчайшие сроки</p>
-        </div>
-        <form action="#">
-          <input type="text" placeholder="Ваш имя">
-          <input type="text" placeholder="Телефон">
-          <textarea type="text" placeholder="Комментарий"></textarea>
-          <div class="modal__lable-checkbox">
-            <input type="button" value="Жду звонок!" class="reg_modal__lable-btn" />
+          <div class="modal-subheader">
+            <p>И мы свяжимся с вами в кратчайшие сроки</p>
           </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-tel">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="header__phone-item">
-          <a href="tel:380668897979">+38 (066) 889-79-79</a>
-          <a href="tel:380668897979">+38 (066) 889-79-79</a>
-          <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
-        </div>
-        <div class="modal__lable-checkbox">
-          <input type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4 value="заказать звонок" class="reg_modal__lable-btn" />
+          <form action="#">
+            <input type="text" placeholder="Ваш имя">
+            <input type="text" placeholder="Телефон">
+            <textarea type="text" placeholder="Комментарий"></textarea>
+            <div class="modal__lable-checkbox">
+              <input type="button" value="Жду звонок!" class="reg_modal__lable-btn" />
+            </div>
+          </form>
         </div>
       </div>
     </div>
   </div>
-</div>
-<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-  aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">РЕГИСТРАЦИЯ НОВОГО КЛИЕНТА</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <div class="modal-title">
-          <p>ХОТИТЕ ПОЛУЧИТЬ СКИДКУ? ЗАРЕГИСТРИРУЙТЕСЬ</p>
+  <div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-tel">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <div class="modal-subheader">
-          <p>Создайте постоянный аккаунт
-            и получите возможность
-            совершать покупки по спец. цене
-            и оставлять отзывы о работе компании
-            и понравившихся товарах</p>
-        </div>
-        <form action="#">
-          <input type="text" placeholder="Ваш e-mail">
-          <input type="text" placeholder="Ваше имя">
-          <input type="text" placeholder="Телефон">
-          <input type="text" placeholder="Ваш пароль">
-          <input type="text" value="Не верный повторный пароль" readonly>
-          <p class="modal-eror">* Минимум 6 символов: латинские символы, цифры.</p>
-          <div class="modal__lable-checkbox">
-            <input type="button" value="зарегестрироваться" class="reg_modal__lable-btn" />
+        <div class="modal-body">
+          <div class="header__phone-item">
+            <a href="tel:380668897979">+38 (066) 889-79-79</a>
+            <a href="tel:380668897979">+38 (066) 889-79-79</a>
+            <a href="tel:380668897979">+38 (066) 889-79-79(Viber)</a>
           </div>
-        </form>
+          <div class="modal__lable-checkbox">
+            <input type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop4 value=" заказать звонок"
+              class="reg_modal__lable-btn" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">РЕГИСТРАЦИЯ НОВОГО КЛИЕНТА</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="modal-title">
+            <p>ХОТИТЕ ПОЛУЧИТЬ СКИДКУ? ЗАРЕГИСТРИРУЙТЕСЬ</p>
+          </div>
+          <div class="modal-subheader">
+            <p>Создайте постоянный аккаунт
+              и получите возможность
+              совершать покупки по спец. цене
+              и оставлять отзывы о работе компании
+              и понравившихся товарах</p>
+          </div>
+          <form action="#">
+            <input type="text" placeholder="Ваш e-mail">
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="Телефон">
+            <input type="text" placeholder="Ваш пароль">
+            <input type="text" value="Не верный повторный пароль" readonly>
+            <p class="modal-eror">* Минимум 6 символов: латинские символы, цифры.</p>
+            <div class="modal__lable-checkbox">
+              <input type="button" value="зарегестрироваться" class="reg_modal__lable-btn" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <footer>
     <div class="container">

@@ -247,7 +247,7 @@ body {
   padding: 50px 35px;
   height: 480px;
 }
-.menu__dropdown-right::after{
+/* .menu__dropdown-right::after{
   content: '';
   position: absolute;
   right: 10px;
@@ -255,7 +255,7 @@ body {
   height: 120px;
   bottom: 10px;
   background: url('../img/logo__menu.png') no-repeat center;
-}
+} */
 .header__inner svg {
   width: 15px;
   height: 15px;
